@@ -68,7 +68,7 @@ export async function getStaticProps () {
   // it's an async task returning a promise
   // Get finally an Array of documents
   const result = await meetupsCollection.find().toArray()
-  console.log('result', result)
+  //console.log('result', result)
 
   // close the connection
   client.close()

@@ -76,7 +76,7 @@ export async function getStaticProps (context) {
   // params.meetupId because the file name is --> [meetupId]
   const meetupId = context.params.meetupId // string from the url
   //const {meetupId} = context.params;
-  console.log(meetupId)
+  //console.log(meetupId)
 
 
   // Now with the id from the Database, we can find this document into the DB with findOne
@@ -89,7 +89,7 @@ export async function getStaticProps (context) {
   const meetupsCollection = db.collection('meetups')
 
   // toArray() -> to convert into JS object
-  console.log(meetupId)
+  //console.log(meetupId)
   // findOne -> we passed an object
   // convert the string id from the url --> to object to find the docuement inside db
   // wrap the url id with --> ObjectId(meetupId) -> to convert it into Object

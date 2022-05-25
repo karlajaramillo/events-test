@@ -31,7 +31,7 @@ async function handler (req, res) {
     // result will be the object which is an async operation, 
     // the result is an object, and insertOne returns a promise
     const result = await meetupsCollection.insertOne(data);
-    console.log(result);
+    //console.log(result);
     // close the connection
     client.close();
 

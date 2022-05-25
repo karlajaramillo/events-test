@@ -25,8 +25,7 @@ function NewMeetupPage () {
     // then after the fetch we'll have the data from the response
     // from the fetch I will have the data from the response.
     const data = await response.json()
-    alert('hello')
-    console.log(data)
+    //console.log(data)
     // To send the user to the root of the app
     router.push('/')
   }
