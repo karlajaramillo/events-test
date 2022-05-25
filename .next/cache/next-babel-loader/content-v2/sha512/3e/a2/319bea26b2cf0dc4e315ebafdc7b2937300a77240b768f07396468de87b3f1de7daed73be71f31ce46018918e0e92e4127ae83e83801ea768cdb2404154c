@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { Fragment } from \"react\";","map":{"version":3,"sources":["/Users/monina/Desktop/nextjs/06-onwards-to-a-bigger-project-starting-project/pages/[meetupId]/index.js"],"names":["Fragment"],"mappings":"AAAA,SAASA,QAAT,QAAyB,OAAzB","sourcesContent":["import { Fragment } from \"react\";"]},"metadata":{},"sourceType":"module"}
