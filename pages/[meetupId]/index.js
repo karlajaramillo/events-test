@@ -47,7 +47,11 @@ export async function getStaticPaths () {
   return {
     // false -> indicates that you define all paths here
     // true -> if you define only the popular pages, not all of them, so it will generate when the request is made
-    fallback: false,
+    // true or 'blocking' we are telling NextJS that the list of paths
+    // so NextJS response will pre-generated when need it.
+    // true -> immediately return the blank page
+    // 'blocking' -> only will show something when the page is pregenerated
+    fallback: 'blocking',
     // paths: [
     //   {
     //     params: {
